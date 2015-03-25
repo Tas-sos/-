@@ -13,18 +13,17 @@ Graph a;
 //cout << "Οκ δημιουργήθηκε το αντικείμενο." << endl;
 
 
-a.eisagogi_korifis("tassos");
+a.eisagogi_korifis("1");
 //cout << "Oκ, πρόσθεσα όνομα στο struct που περιέχει το αντικείμενο" << endl;
-a.eisagogi_korifis("Aris");
+a.eisagogi_korifis("2");
 
 
 //cout << "Προσθήκη τιμών στο struct του αντικειμένου." << endl;
-a.sindesi_korifis_me_tin_korifi("tassos","a");
-a.sindesi_korifis_me_tin_korifi("tassos","b");
-a.sindesi_korifis_me_tin_korifi("tassos","c");
+a.sindesi_korifis_me_tin_korifi("1","3");
+a.sindesi_korifis_me_tin_korifi("1","2");
 
-a.sindesi_korifis_me_tin_korifi("Aris","G-lts Team");
-a.sindesi_korifis_me_tin_korifi("Aris","Aris Sec Network");
+a.sindesi_korifis_me_tin_korifi("2","5");
+a.sindesi_korifis_me_tin_korifi("2","4");
 
 //cout << "Εμφάνιση τιμών του vector του struct που έχει το αντικείμενο." << endl;
 a.print();
