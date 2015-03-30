@@ -1,5 +1,15 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 29 Μαρ 2015
+ *      Author: learn-hack
+ */
+
+
+
 #include <iostream>
-#include "g_lts_team_lib.h"
+#include <string>
+#include "Graph.h"
 
 using namespace std;
 
@@ -35,8 +45,3 @@ a.write_to_file();
 
 return 0;
 }
-
-
-
-
-
